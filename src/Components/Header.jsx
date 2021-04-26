@@ -6,9 +6,10 @@ const Header = () => {
       style={{
         padding: "15px",
         backgroundColor: "silver",
-        display:"flex", 
-        justifyContent:"space-around",
-        alignItems:"center"
+        display: "flex",
+        justifyContent: "space-around",
+        alignItems: "center",
+        flexWrap: "wrap",
       }}
     >
       <h1
@@ -20,7 +21,9 @@ const Header = () => {
       >
         Image Gallery
       </h1>
-      <h2 className="developer">Developed By: <button className="glow-on-hover">Mian Shakir</button></h2>
+      <h2 className="developer">
+        Developed By: <button className="glow-on-hover">Mian Shakir</button>
+      </h2>
     </div>
   );
 };
