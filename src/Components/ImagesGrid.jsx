@@ -9,7 +9,7 @@ const ImagesGrid = () => {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(loadImages());
-  }, []);
+  }, [dispatch]);
 
   return (
     <>
